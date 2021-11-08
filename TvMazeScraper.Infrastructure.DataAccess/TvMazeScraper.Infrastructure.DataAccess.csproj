@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.11" />
+    <PackageReference Include="Z.Dapper.Plus" Version="4.0.17" />
+    <PackageReference Include="Z.EntityFramework.Plus.EFCore" Version="5.2.17" />
+    <PackageReference Include="Dapper" Version="2.0.123" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TvMazeScraper.Domain.DataAccess.Contracts\TvMazeScraper.Domain.DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\TvMazeScraper.Domain.Models\TvMazeScraper.Domain.Models.csproj" />
+    <ProjectReference Include="..\TvMazeScrapper.Domain\TvMazeScrapper.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
