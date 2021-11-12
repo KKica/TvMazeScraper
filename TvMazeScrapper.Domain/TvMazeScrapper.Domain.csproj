@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.0.1" />
+    <PackageReference Include="Serilog" Version="2.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TvMazeScraper.Domain.DataAccess.Contracts\TvMazeScraper.Domain.DataAccess.Contracts.csproj" />
+    <ProjectReference Include="..\TvMazeScraper.Domain.Models\TvMazeScraper.Domain.Models.csproj" />
+    <ProjectReference Include="..\TvMazeScraper.Domain.Services.Contracts\TvMazeScraper.Domain.Services.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
